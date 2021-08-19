@@ -6,7 +6,7 @@ ruby '2.6.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4'
 # Use pg as the database for Active Record
-gem 'pg', '~> 1.1'
+# gem 'pg', '~> 1.1'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
@@ -34,9 +34,15 @@ gem 'devise', '~> 4.8'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
+
+  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # gem 'pg', '~> 1.4'
+end
+
+group :production do
+  gem 'pg'
 end
 
 group :development do
