@@ -1,24 +1,25 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+https://user-images.githubusercontent.com/70100567/130223362-702ac258-64f7-45e7-8088-8a823a68d0d4.mp4
 
-* Ruby version
 
-* System dependencies
+<br />
 
-* Configuration
+<H1> Ruby gems used in this build </h1> <br /> <br />
 
-* Database creation
+<b>Better Errors </b> - For better errors <br />
 
-* Database initialization
+<b> Bulma </b> - for easy CSS. Feel free to roll your own styles and/or use a different framework.<br />
 
-* How to run the test suite
+<b>Guard </b > - Useful for live reloading our scss, js, css, and erb files, although it's capable of much more!<br />
 
-* Services (job queues, cache servers, search engines, etc.)
+  Guard is required for the Guard LiveReload gem to work
 
-* Deployment instructions
+  Guard LiveReload
 
-* ...
+<b>Simple Form</b> - For simple forms!<br />
+
+<b>Devise</b> - Effortless user roles and authentication<br />
+
+<b>Gravatar_image_tag</b> - Integrated image tag which spits out gravatars.<br />
+
